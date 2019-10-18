@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./App.css";
+import Nav from "./components/Nav/Nav";
 
 class App extends Component {
   constructor() {
@@ -8,8 +9,14 @@ class App extends Component {
       placeholder: ""
     };
   }
+
   render() {
-    return <div className="App">This is my portfolio!</div>;
+    return (
+      <div className="App">
+        <Nav />
+        <p>This is my portfolio!</p>
+      </div>
+    );
   }
 }
 
