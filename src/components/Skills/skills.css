@@ -1,5 +1,12 @@
 .skills-container {
-    padding-top: 100px;
     height: 100vh;
-    background: blue;
+    background: rgba(80, 80, 250, 0.747);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 10rem;
 }
