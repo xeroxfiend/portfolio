@@ -1,6 +1,9 @@
 import React, {Component} from "react";
 import "./App.css";
 import Nav from "./components/Nav/Nav";
+import About from './components/About/About'
+import Skills from './components/Skills/Skills'
+import Contact from './components/Contact/Contact'
 
 class App extends Component {
   constructor() {
@@ -14,7 +17,9 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <p>This is my portfolio!</p>
+        <About />
+        <Skills />
+        <Contact />
       </div>
     );
   }

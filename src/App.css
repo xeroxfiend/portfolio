@@ -1,3 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .App {
+    position: relative;
     text-align: center;
+}
+
+.dashboard::-webkit-scrollbar {
+    width: 10px;
+    background: lightgrey;
+    height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #868282
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(102, 101, 101);
 }
