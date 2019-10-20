@@ -3,7 +3,7 @@ import "./skills.css";
 
 function Skills() {
   return (
-    <div className="skills-container">
+    <div id='skills'className="skills-container">
       <i class="devicon-react-original colored"></i>
       <i class="devicon-nodejs-plain colored"></i>
       <i class="devicon-javascript-plain colored"></i>
