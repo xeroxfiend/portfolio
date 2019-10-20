@@ -1,5 +1,5 @@
-$main: blue;
-$secondary: green;
+$main: rgba(0, 0, 0, 0.527);
+$secondary: rgba(85, 84, 84, 0.63);
 $accent: pink;
 @mixin flexCenter($direction) {
     display: flex;

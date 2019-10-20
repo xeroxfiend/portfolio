@@ -1,4 +1,6 @@
+@import '../../variables';
 .projects-container {
-    background: purple;
+    // background: rgba(226, 51, 226, 0.733);
+    background: $main;
     height: 100vh;
 }
