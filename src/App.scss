@@ -1,3 +1,9 @@
+@import './components/Nav/_nav.scss';
+@import './components/About/_about.scss';
+@import './components/Skills/_skills.scss';
+@import './components/Projects/_projects.scss';
+@import './components/Contact/_contact.scss';
+@import './variables';
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,7 +37,7 @@
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: blue;
+    background: white;
 }
 
 

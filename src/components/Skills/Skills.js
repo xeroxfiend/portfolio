@@ -1,21 +1,23 @@
 import React from "react";
-import "./skills.css";
 
 function Skills() {
   return (
-    <div id='skills'className="skills-container">
-      <i class="devicon-react-original colored"></i>
-      <i class="devicon-nodejs-plain colored"></i>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-express-original colored"></i>
-      <i class="devicon-typescript-plain colored"></i>
-      <i class="devicon-css3-plain-wordmark colored"></i>
-      <i class="devicon-git-plain colored"></i>
-      <i class="devicon-github-plain colored"></i>
-      <i class="devicon-html5-plain-wordmark colored"></i>
-      <i class="devicon-heroku-plain colored"></i>
-      <i class="devicon-postgresql-plain colored"></i>
-      <i class="devicon-sass-original colored"></i>
+    <div id="skills" className="skills-container">
+      <p className="skills-title">Skills</p>
+      <div className="icons">
+        <i className="devicon-react-original colored"></i>
+        <i className="devicon-nodejs-plain colored"></i>
+        <i className="devicon-javascript-plain colored"></i>
+        <i className="devicon-express-original colored"></i>
+        <i className="devicon-typescript-plain colored"></i>
+        <i className="devicon-css3-plain-wordmark colored"></i>
+        <i className="devicon-git-plain colored"></i>
+        <i className="devicon-github-plain colored"></i>
+        <i className="devicon-html5-plain-wordmark colored"></i>
+        <i className="devicon-heroku-plain colored"></i>
+        <i className="devicon-postgresql-plain colored"></i>
+        <i className="devicon-sass-original colored"></i>
+      </div>
     </div>
   );
 }

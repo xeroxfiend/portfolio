@@ -1,0 +1,19 @@
+@import '../../variables';
+.skills-container {
+    height: 100vh;
+    background: rgba(80, 80, 250, 0.747);
+    padding-top: 75px;
+}
+
+.icons {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    @include flexCenter(row);
+    flex-wrap: wrap;
+    padding: 100px 200px;
+}
+
+i {
+    font-size: 9rem;
+    margin: 20px;
+}
