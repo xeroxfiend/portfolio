@@ -1,5 +1,11 @@
 @import '../../variables';
 .contact-container {
+    @include flexCenter(column);
+    .contact-me {
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+    }
     height: 100vh;
     // background: rgba(240, 56, 56, 0.74);
     background: $secondary;

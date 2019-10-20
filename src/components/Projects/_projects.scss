@@ -4,4 +4,18 @@
     background: $main;
     height: 100vh;
     padding-top: 90px;
+    @include flexCenter(column);
+    .projects-title-watchon {
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 20px;
+    }
+    .watch-on {
+        max-height: 500px;
+        border-radius: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }

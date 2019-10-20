@@ -1,5 +1,11 @@
 @import '../../variables';
 .about-container {
+    @include flexCenter(column);
+    .bio {
+        color: white;
+        font-weight: 500;
+        font-size: 2rem;
+    }
     padding-top: 80px;
     height: 100vh;
     // background: rgba(56, 170, 56, 0.705);

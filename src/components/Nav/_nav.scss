@@ -14,9 +14,13 @@
     font-size: 1.4rem;
     font-weight: 500;
     a {
+        &:hover {
+            color: rgba(0, 0, 0, 0.363);
+        }
         text-decoration: none;
         color: white;
         margin-left: 15px;
+        transition: .3s ease-in-out;
     }
     .contact {
         margin-right: 50px;
