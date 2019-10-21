@@ -4,6 +4,7 @@
     background: $main;
     height: 100vh;
     padding-top: 90px;
+    scroll-snap-align: center;
     @include flexCenter(column);
     .projects-title-watchon {
         color: white;
