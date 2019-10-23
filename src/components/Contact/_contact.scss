@@ -1,6 +1,7 @@
 @import '../../variables';
 .contact-container {
     @include flexCenter(column);
+    transition: 1s ease;
     .contact-me {
         color: white;
         font-size: 5rem;

@@ -1,6 +1,7 @@
 @import '../../variables';
 .about-container {
     @include flexCenter(column);
+    transition: 1s ease;
     .bio {
         color: white;
         font-weight: 500;

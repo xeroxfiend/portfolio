@@ -1,9 +1,19 @@
 @import "../../variables";
 .skills-container {
+    // @media (max-width: $largestBreak) {
+    //     .icon-container {
+    //         padding: 20px;
+    //         margin: 20px;
+    //         .icons {
+    //             width: 200px;
+    //         }
+    //     }
+    // }
     height: 100vh;
     // background: rgba(80, 80, 250, 0.747);
     background: $secondary;
     scroll-snap-align: center;
+    transition: 1s ease;
     @include flexCenter(column);
     .icons {
         max-width: 900px;
