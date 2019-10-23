@@ -3,7 +3,6 @@
     // background: rgba(226, 51, 226, 0.733);
     background: $main;
     height: 100vh;
-    padding-top: 90px;
     scroll-snap-align: center;
     @include flexCenter(column);
     .projects-title-watchon {
