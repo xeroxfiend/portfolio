@@ -5,7 +5,7 @@
     flex-direction: column;
     // justify-content: space-around;
     align-items: center;
-    width: 80px;
+    width: 90px;
     height: 100vh;
     backdrop-filter: grayscale(60%);
     background: rgba(0, 0, 0, 0.377);
@@ -16,15 +16,39 @@
     font-weight: 500;
     transition: .3s ease;
     &:hover {
-        background: transparent;
+        .about:after {
+            transition: .5s ease-in-out;
+            content: 'fter'
+        }
+        .skills:after {
+            transition: .5s ease-in-out;
+            content: 'kills'
+        }
+        .projects:after {
+            transition: .5s ease-in-out;
+            content: 'rojects'
+        }
+        .contact:after {
+            transition: .5s ease-in-out;
+            content: 'ontact'
+        }
+        // background: transparent;
+        background: rgba(0, 0, 0, 0.116);
         box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.185);
         width: 120px;
+        .title {
+            color: rgba(0, 0, 0, 0.363);
+        }
+        a {
+            color: rgba(0, 0, 0, 0.363);
+        }
     }
     .title {
         font-size: 2.2rem;
         margin-top: 30px;
     }
     .nav {
+        transition: .5s ease;
         display: flex;
         height: 100%;
         justify-content: center;
@@ -32,7 +56,8 @@
     }
     a {
         &:hover {
-            color: rgba(0, 0, 0, 0.363);
+            // color: rgba(0, 0, 0, 0.363);
+            color: white;
         }
         text-decoration: none;
         color: white;

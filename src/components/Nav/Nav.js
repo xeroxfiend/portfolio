@@ -6,16 +6,16 @@ function Nav() {
       <header className="title">BL</header>
       <nav className="nav">
         <a href="#about" className="about">
-          About
+          A
         </a>
         <a href="#skills" className="skills">
-          Skills
+          S
         </a>
         <a href="#projects" className="projects">
-          Projects
+          P
         </a>
         <a href="#contact" className="contact">
-          Contact
+          C
         </a>
       </nav>
     </div>
