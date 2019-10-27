@@ -3,6 +3,7 @@
     // background: rgba(226, 51, 226, 0.733);
     background: $main;
     height: 100vh;
+    width: 100vw;
     scroll-snap-align: center;
     transition: 1s ease;
     @include flexCenter(column);

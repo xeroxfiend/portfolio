@@ -3,13 +3,14 @@
     @include flexCenter(column);
     transition: 1s ease;
     .contact-me {
-        color: white;
+        color: rgb(65, 113, 119);
         font-size: 5rem;
         font-weight: 500;
         text-shadow: 1px 1px rgba(128, 128, 128, 0.534);
     }
     scroll-snap-align: center;
     height: 100vh;
+    width: 100vw;
     // background: rgba(240, 56, 56, 0.74);
     background: $secondary;
     span {
