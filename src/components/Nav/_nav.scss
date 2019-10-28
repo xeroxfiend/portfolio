@@ -16,6 +16,9 @@
     font-weight: 500;
     transition: .3s ease;
     &:hover {
+        img {
+            filter: invert(50%);
+        }
         .about:after {
             transition: .5s ease-in-out;
             content: 'bout'
@@ -38,6 +41,7 @@
         width: 130px;
         .title {
             color: rgba(0, 0, 0, 0.363);
+            margin-left: 45px;
         }
         a {
             color: rgba(0, 0, 0, 0.363);
@@ -46,6 +50,8 @@
     .title {
         font-size: 2.2rem;
         margin-top: 30px;
+        margin-left: 25px;
+        transition: .3s;
     }
     .nav {
         transition: .5s ease;
