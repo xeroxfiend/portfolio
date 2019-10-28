@@ -8,7 +8,7 @@
     transition: 1s ease;
     @include flexCenter(column);
     .projects-title-watchon {
-        color: white;
+        color: $accent;
         font-size: 4rem;
         font-weight: 500;
         margin: 20px;

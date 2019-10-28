@@ -11,11 +11,22 @@
     background: rgba(0, 0, 0, 0.377);
     // background: transparent;
     box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.377);
-    color: white;
     font-size: 1rem;
     font-weight: 500;
     transition: .3s ease;
     &:hover {
+        .about-icon {
+            margin-left: 25px;
+        }
+        .skills-icon {
+            margin-left: 26px;
+        }
+        .projects-icon {
+            margin-left: 24px;
+        }
+        .contact-icon {
+            margin-left: 24px;
+        }
         img {
             filter: invert(50%);
         }
@@ -34,6 +45,18 @@
         .contact:after {
             transition: .5s ease-in-out;
             content: 'ontact'
+        }
+        .about {
+            opacity: 100;
+        }
+        .skills {
+            opacity: 100;
+        }
+        .projects {
+            opacity: 100;
+        }
+        .contact {
+            opacity: 100;
         }
         // background: transparent;
         background: rgba(0, 0, 0, 0.116);
@@ -66,7 +89,8 @@
             color: white;
         }
         text-decoration: none;
-        color: white;
+        // color: white;
+        color: rgba(0, 0, 0, 0.363);
         // margin-left: 15px;
         transition: 0.3s ease-in-out;
         margin: 20px;
@@ -80,46 +104,70 @@
 }
 
 .about-image {
-    height: 20px;
+    height: 25px;
+    filter: invert(100%);
     margin-top: -28px;
     margin-right: -15px;
 }
 
 .about-icon {
-    margin-left: 25px;
+    transition: .3s ease-in-out;
+    margin-left: 33px;
     display: flex;
     align-items: center;
 }
 
 .skills-image {
-    height: 20px;
+    height: 15px;
+    filter: invert(100%);
     margin-right: -15px;
 }
 
 .skills-icon {
-    margin-left: 25px;
+    transition: .3s ease-in-out;
+    margin-left: 35px;
     display: flex;
     align-items: center;
 }
 
 .projects-image {
-    height: 20px;
+    height: 22px;
+    filter: invert(100%) contrast(1000);
     margin-right: -15px;
 }
 
 .projects-icon {
-    margin-left: 25px;
+    transition: .3s ease-in-out;
+    margin-left: 33px;
     display: flex;
     align-items: center;
 }
 
 .contact-image {
     height: 20px;
+    filter: invert(100%) contrast(1000);
     margin-right: -15px;
 }
 
 .contact-icon {
-    margin-left: 25px;
+    transition: .3s ease-in-out;
+    margin-left: 33px;
     display: flex;
     align-items: center;
+}
+
+.about {
+    opacity: 0;
+}
+
+.skills {
+    opacity: 0;
+}
+
+.projects {
+    opacity: 0;
+}
+
+.contact {
+    opacity: 0;
 }
