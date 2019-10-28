@@ -10,30 +10,30 @@ function Nav() {
     <div className="nav-container">
       <header className="title">BL</header>
       <nav className="nav">
-        <div className="about-icon">
+        <a href='#about' className="about-icon">
           <img src={about} alt="about" className="about-image" />
-          <a href="#about" className="about">
+          <p className="about">
             A
-          </a>
-        </div>
-        <div className="skills-icon">
+          </p>
+        </a>
+        <a href='#skills' className="skills-icon">
           <img src={skills} alt="skills" className="skills-image" />
-          <a href="#skills" className="skills">
+          <p className="skills">
             S
-          </a>
-        </div>
-        <div className="projects-icon">
+          </p>
+        </a>
+        <a href='#projects' className="projects-icon">
           <img src={projects} alt="projects" className="projects-image" />
-          <a href="#projects" className="projects">
+          <p className="projects">
             P
-          </a>
-        </div>
-        <div className="contact-icon">
+          </p>
+        </a>
+        <a href='#contact' className="contact-icon">
           <img src={contact} alt="contact" className="contact-image" />
-          <a href="#contact" className="contact">
+          <p className="contact">
             C
-          </a>
-        </div>
+          </p>
+        </a>
       </nav>
     </div>
   );
