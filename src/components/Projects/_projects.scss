@@ -1,4 +1,4 @@
-@import '../../variables';
+@import "../../variables";
 .projects-container {
     // background: rgba(226, 51, 226, 0.733);
     background: $main;
@@ -7,18 +7,78 @@
     scroll-snap-align: center;
     transition: 1s ease;
     @include flexCenter(column);
-    .projects-title-watchon {
-        color: $accent;
-        font-size: 4rem;
-        font-weight: 500;
-        margin: 20px;
-        text-shadow: 1px 1px rgba(128, 128, 128, 0.534);
-    }
-    .watch-on {
-        max-height: 500px;
-        border-radius: 20px;
-        &:hover {
-            cursor: pointer;
-        }
-    }
+    // .projects-title-watchon {
+    //     color: $accent;
+    //     font-size: 4rem;
+    //     font-weight: 500;
+    //     margin: 20px;
+    //     text-shadow: 1px 1px rgba(128, 128, 128, 0.534);
+    // }
+    // .watch-on {
+    //     max-height: 500px;
+    //     border-radius: 20px;
+    //     &:hover {
+    //         cursor: pointer;
+    //     }
+    // }
+}
+
+.watch1 {
+    height: 350px;
+    background: url("../../assets/watchon/landingpage.JPG");
+    background-size: cover;
+}
+
+.watch2 {
+    height: 350px;
+    background: url("../../assets/watchon/watchon.JPG");
+    background-size: cover;
+}
+
+.watch3 {
+    height: 350px;
+    background: url("../../assets/watchon/playlist.JPG");
+    background-size: cover;
+}
+
+.smakd1 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdlanding.JPG");
+    background-size: cover;
+}
+
+.smakd2 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdhost.JPG");
+    background-size: cover;
+}
+
+.smakd3 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdjoin.JPG");
+    background-size: cover;
+}
+
+.smakd4 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdhostlobby.JPG");
+    background-size: cover;
+}
+
+.smakd5 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdquestion.JPG");
+    background-size: cover;
+}
+
+.smakd6 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdresults.JPG");
+    background-size: cover;
+}
+
+.smakd6 {
+    height: 350px;
+    background: url("../../assets/smakd/smakdfinal.JPG");
+    background-size: cover;
 }
