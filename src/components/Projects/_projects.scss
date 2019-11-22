@@ -1,12 +1,15 @@
 @import "../../variables";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 .projects-container {
+    position: relative;
     // background: rgba(226, 51, 226, 0.733);
     background: $main;
     height: 100vh;
     width: 100vw;
     scroll-snap-align: center;
     transition: 1s ease;
-    @include flexCenter(column);
+    @include flexCenter(row);
     // .projects-title-watchon {
     //     color: $accent;
     //     font-size: 4rem;
@@ -23,61 +26,115 @@
     // }
 }
 
+.slick-slider {
+    height: 200px;
+    width: 650px;
+    padding: 10px;
+}
+
+.projects-title {
+    position: absolute;
+    top: 10px;
+    color: $accent;
+    font-size: 5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.534);
+}
+
+.watchon {
+    margin-top: -130px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.smakd {
+    margin-top: -130px;
+    cursor: pointer;
+}
+
+.watchon-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.watchon-desc {
+    font-size: 1rem;
+}
+
+.smakd-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.smakd-desc {
+    font-size: 1rem;
+}
+
 .watch1 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/watchon/landingpage.JPG");
     background-size: cover;
 }
 
 .watch2 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/watchon/watchon.JPG");
     background-size: cover;
 }
 
 .watch3 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/watchon/playlist.JPG");
     background-size: cover;
 }
 
 .smakd1 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdlanding.JPG");
     background-size: cover;
 }
 
 .smakd2 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdhost.JPG");
     background-size: cover;
 }
 
 .smakd3 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdjoin.JPG");
     background-size: cover;
 }
 
 .smakd4 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdhostlobby.JPG");
     background-size: cover;
 }
 
 .smakd5 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdquestion.JPG");
     background-size: cover;
 }
 
 .smakd6 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdresults.JPG");
     background-size: cover;
 }
 
-.smakd6 {
+.smakd7 {
+    border-radius: 10px;
     height: 350px;
     background: url("../../assets/smakd/smakdfinal.JPG");
     background-size: cover;
