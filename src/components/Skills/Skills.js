@@ -3,7 +3,7 @@ import React from "react";
 function Skills() {
   return (
     <div id="skills" className="skills-container">
-      <span className='skills-title' >Skills</span>
+      <span className='skills-title'>Skills</span>
       <div className="icons">
         <div className="icon-container">
           <i className="devicon-react-original colored">
