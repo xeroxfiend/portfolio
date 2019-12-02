@@ -1,0 +1,8 @@
+@import '../../variables';
+.home-container {
+    @include flexCenter(row);
+    background: $secondary;
+    scroll-snap-align: center;
+    height: 100vh;
+    width: 100vw;
+}
