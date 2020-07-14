@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
-    return (
-        <div className="home-container">
-            HOME
-        </div>
-    )
+  return (
+    <div className="home-container">
+      <div className="name">Brian Lowe</div>
+      <div className="title">Web Developer</div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,8 +1,18 @@
 @import '../../variables';
 .home-container {
-    @include flexCenter(row);
+    @include flexCenter(column);
     background: $secondary;
     scroll-snap-align: center;
     height: 100vh;
     width: 100vw;
+    .name {
+        font-size: 5rem;
+        color: $main;
+        margin: 10px;
+    }
+    .title {
+        font-size: 4rem;
+        color: $main;
+        margin: 10px;
+    }
 }
