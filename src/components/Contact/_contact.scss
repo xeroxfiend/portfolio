@@ -2,6 +2,7 @@
 .contact-container {
     @include flexCenter(column);
     transition: 1s ease;
+    padding-left: 90px;
     .contact-me {
         color: $accent;
         font-size: 5rem;

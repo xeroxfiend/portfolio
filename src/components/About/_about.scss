@@ -2,13 +2,13 @@
 .about-container {
     @include flexCenter(row);
     transition: 1s ease;
+    padding-left: 90px;
     .head-shot {
         max-height: 400px;
         margin: 5vw;
         border-radius: 10px;
     }
     .bio {
-        margin-left: 60px;
         color: $accent;
         font-weight: 500;
         font-size: 1.5rem;

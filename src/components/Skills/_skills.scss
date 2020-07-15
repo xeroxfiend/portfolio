@@ -16,6 +16,8 @@
     background: $secondary;
     scroll-snap-align: center;
     transition: 1s ease;
+    padding-top: 50px;
+    padding-left: 90px;
     @include flexCenter(column);
     .skills-title {
         position: absolute;

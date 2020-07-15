@@ -3,27 +3,21 @@
 @import "~slick-carousel/slick/slick-theme.css";
 .projects-container {
     position: relative;
-    // background: rgba(226, 51, 226, 0.733);
     background: $main;
     height: 100vh;
     width: 100vw;
     scroll-snap-align: center;
     transition: 1s ease;
-    @include flexCenter(row);
-    // .projects-title-watchon {
-    //     color: $accent;
-    //     font-size: 4rem;
-    //     font-weight: 500;
-    //     margin: 20px;
-    //     text-shadow: 1px 1px rgba(128, 128, 128, 0.534);
-    // }
-    // .watch-on {
-    //     max-height: 500px;
-    //     border-radius: 20px;
-    //     &:hover {
-    //         cursor: pointer;
-    //     }
-    // }
+    padding-left: 90px;
+    ;
+    .projects-inner {
+        @include flexCenter(row);
+        justify-content: flex-start;
+        overflow-x: scroll;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -106.4px;
+    }
 }
 
 .slick-slider {
@@ -33,23 +27,36 @@
 }
 
 .projects-title {
-    position: absolute;
-    top: 10px;
     color: $accent;
     font-size: 5rem;
     font-weight: 500;
     text-shadow: 1px 1px rgba(128, 128, 128, 0.534);
 }
 
-.watchon {
+.lotimus {
     margin-top: -130px;
     margin-left: 50px;
     cursor: pointer;
 }
 
-.smakd {
+.watchon {
     margin-top: -130px;
     cursor: pointer;
+}
+
+.smakd {
+    margin-top: -130px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.lotimus-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.lotimus-desc {
+    font-size: 1rem;
 }
 
 .watchon-title {
@@ -68,6 +75,48 @@
 
 .smakd-desc {
     font-size: 1rem;
+}
+
+.lotimus1 {
+    border-radius: 10px;
+    height: 350px;
+    background: url("../../assets/watchon/landingpage.JPG");
+    background-size: cover;
+}
+
+.lotimus2 {
+    border-radius: 10px;
+    height: 350px;
+    background: url("../../assets/watchon/watchon.JPG");
+    background-size: cover;
+}
+
+.lotimus3 {
+    border-radius: 10px;
+    height: 350px;
+    background: url("../../assets/watchon/playlist.JPG");
+    background-size: cover;
+}
+
+.lotimus4 {
+    border-radius: 10px;
+    height: 350px;
+    background: url("../../assets/watchon/landingpage.JPG");
+    background-size: cover;
+}
+
+.lotimus5 {
+    border-radius: 10px;
+    height: 350px;
+    background: url("../../assets/watchon/watchon.JPG");
+    background-size: cover;
+}
+
+.lotimus6 {
+    border-radius: 10px;
+    height: 350px;
+    background: url("../../assets/watchon/playlist.JPG");
+    background-size: cover;
 }
 
 .watch1 {
