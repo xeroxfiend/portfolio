@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-// import watchon from "../../assets/watchon.JPG";
 import Slider from "react-slick";
 
 class Projects extends Component {
